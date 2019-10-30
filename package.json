@@ -1,0 +1,33 @@
+{
+  "name": "aprendareact",
+  "version": "1.0.0",
+  "description": "Componentes do AprendaReact.com.br",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "themeprovider-storybook": "^1.2.4"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanbauer/aprendareact-componentes.git"
+  },
+  "keywords": [
+    "aprendareact",
+    "components"
+  ],
+  "author": "@jeanbauerr",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jeanbauer/aprendareact-componentes/issues"
+  },
+  "homepage": "https://github.com/jeanbauer/aprendareact-componentes#readme"
+}
