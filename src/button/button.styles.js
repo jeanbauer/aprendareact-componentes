@@ -23,13 +23,13 @@ export const BaseButton = styled.button`
   transition: background 0.5s;
 `
 
-export const StyledButton = styled(BaseButton)`
+export const Button = styled(BaseButton)`
   background-color: ${({ theme }) => theme.textColor};
   color: ${({ theme }) => theme.backgroundColor};
   border-bottom-color: ${({ theme }) => theme.textColor};
 `
 
-export const OutlineButton = styled(StyledButton)`
+export const OutlineButton = styled(Button)`
   background-color: ${({ theme }) => theme.backgroundColor};
   color: ${({ theme }) => theme.textColor};
 
@@ -44,7 +44,7 @@ export const OutlineButton = styled(StyledButton)`
   }
 `
 
-export const DangerButton = styled(StyledButton)`
+export const DangerButton = styled(Button)`
   border: 0;
   border-bottom: 4px solid;
   border-bottom-color: ${({ theme }) => theme.dangerBorderColor};
@@ -53,7 +53,7 @@ export const DangerButton = styled(StyledButton)`
   color: #FFF;
 `
 
-export const LightButton = styled(StyledButton)`
+export const LightButton = styled(Button)`
   border: 0;
   border-bottom: 4px solid #e5e6e6;
 

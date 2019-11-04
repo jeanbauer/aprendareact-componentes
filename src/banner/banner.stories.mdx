@@ -1,0 +1,54 @@
+import { Meta, Story, Props, Source, Preview } from '@storybook/addon-docs/blocks';
+
+import {
+  Banner,
+  CustomBanner,
+  BannerWithData,
+} from './banner.styles'
+
+<Meta title="Fundo|Banner" component={BannerWithData} />
+
+# Banner
+São componentes utilizados para informar a usuária em qual página ela se encontra ou destacar algum conteúdo.
+
+
+### 1. Banner com dados
+É a única opção de uso do banner de forma opinionada, ou seja, um componente que já contém as regras de estilização necessárias para montar um banner no estilo para o Aprenda React (<a target="_blank" href="https://www.aprendareact.com.br/perfil">exemplo</a>).
+
+<Preview>
+  <Story name="Com dados">
+    <BannerWithData
+      height={220}
+      colors={['#e8e8e8', '#f3f3f3']}
+      imageWidth={[130, 270]}
+    >
+      <div>
+        <h1>Olá</h1>
+        <p>
+          Aqui você pode adicionar informações sobre sua página
+        </p>
+      </div>
+      <div>
+        <img src={'https://www.aprendareact.com.br/static/laurel.svg'} alt='imagem de láureas' />
+      </div>
+    </BannerWithData>
+  </Story>
+</Preview>
+
+### 2. Banner Customizado
+Da a flexibilização necessária para alterar altura e cores de fundo.
+
+<Preview>
+  <Story name="Customizado">
+    <CustomBanner height={220} colors={['#e8e8e8', '#f3f3f3']} />
+  </Story>
+</Preview>
+
+### 3. Banner Temificado
+Ideal para quando precisa-se que o Banner mude sua cor de acordo com o tema aplicado, como por exemplo em modo noturno/diurno.
+
+<Preview>
+  <Story name="Temificado">
+    <Banner></Banner>
+  </Story>
+</Preview>

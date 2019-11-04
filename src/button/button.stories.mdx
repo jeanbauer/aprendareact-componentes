@@ -1,0 +1,35 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+
+import { Button, DangerButton, LightButton, OutlineButton } from './button.styles'
+
+<Meta title="Ações|Botões" component={Button} />
+
+# Botões
+São componentes que indicam alguma ação para a usuária.
+
+### 1. Contornado
+Botão mais utilizado no Aprenda React, pode servir para qualquer ação como gerar certificado ou avançar nas aulas.
+
+<Preview>
+  <Story name="Contornado">
+    <OutlineButton strong>Botão contornado</OutlineButton>
+  </Story>
+</Preview>
+
+### 2. Sólido
+Botões que destoam do estilo contornado para ações como confirmação de outra ação.
+
+<Preview>
+  <Story name="Sólido">
+    <Button>Botão sólido</Button>
+  </Story>
+</Preview>
+
+### 3. Perigo
+Utilizado para ações que demandem confirmação como exclusão.
+
+<Preview>
+  <Story name="Perigo">
+    <DangerButton>Botão de perigo</DangerButton>
+  </Story>
+</Preview>

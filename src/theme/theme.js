@@ -1,8 +1,8 @@
 const theme = {
   headingFont: 'DM Serif Display, serif',
   textFont: 'Nunito, sans-serif',
-  dangerBackgroundColor: '#f44336',
-  dangerBorderColor: '#E91E63',
+  dangerBackgroundColor: '#eb1c49',
+  dangerBorderColor: '#eb1c49',
   button: {
     borderColor: '#ecb199',
     backgroundColor: '#fcbfa7',

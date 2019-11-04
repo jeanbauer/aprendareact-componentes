@@ -49,7 +49,6 @@ export const BannerWithData = styled(CustomBanner)`
     flex-direction: row;
 
     padding: 20px 60px;
-    margin: 0 60px 20px 60px;
 
     img {
       display: block;
