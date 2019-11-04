@@ -1,6 +1,6 @@
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { create } from '@storybook/theming';
-import { withThemesProvider } from "themeprovider-storybook";
+import { withThemesProvider } from 'storybook-addon-styled-component-theme';
 
 import storybookTheme from './storybook-theme';
 import { lightTheme, darkTheme } from '../src/theme/theme'
@@ -27,4 +27,4 @@ addParameters({
 });
 
 // automatically import all files ending in *.stories.js
-configure(require.context('../src', true, /\.stories\.js$/), module);
+configure(require.context('../src', true, /\.stories\.(js|mdx)$/), module);
