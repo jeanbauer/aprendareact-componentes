@@ -1,1 +1,6 @@
 /node_modules
+
+# build files
+/banner
+/button
+/theme
