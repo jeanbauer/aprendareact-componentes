@@ -10,7 +10,13 @@ export const Banner = styled.section`
 `
 
 export const ColoredBanner = styled(Banner)`
-  background-image: ${({ colors }) => `linear-gradient(to left, ${colors[0]} 0%, ${colors[1]} 100%)`};
+  background-image: ${({ colors, theme }) => {
+    if (colors) {
+      return `linear-gradient(to left, ${colors[0]} 0%, ${colors[1]} 100%)`;
+    }
+
+    return `linear-gradient(to left, ${theme.banner.primary} 0%, ${theme.banner.secondary} 100%)`;
+  }};
 `
 
 export const CustomBanner = styled(ColoredBanner)`

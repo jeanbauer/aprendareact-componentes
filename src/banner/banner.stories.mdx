@@ -1,4 +1,5 @@
 import { Meta, Story, Props, Source, Preview } from '@storybook/addon-docs/blocks';
+import { ThemeProvider } from 'styled-components'
 
 import {
   Banner,
@@ -14,6 +15,7 @@ São componentes utilizados para informar a usuária em qual página ela se enco
 
 ### 1. Banner com dados
 É a única opção de uso do banner de forma opinionada, ou seja, um componente que já contém as regras de estilização necessárias para montar um banner no estilo para o Aprenda React (<a target="_blank" href="https://www.aprendareact.com.br/perfil">exemplo</a>).
+Para visualizar este banner com as cores do tema basta não enviar a prop `colors`.
 
 <Preview>
   <Story name="Com dados">
