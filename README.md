@@ -1,11 +1,14 @@
-# Componentes do Aprenda React
-> Isso não é um Design System.
-
-[![NPM](https://img.shields.io/npm/v/aprendareact.svg)](https://www.npmjs.com/package/aprendareact) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 <p align="center">
   <img src="./logo.png" alt="Logotipo do Aprenda React Componentes, 4 hexágonos e os dizeres Aprenda React" />
 </p>
+
+
+# Componentes do Aprenda React
+
+[![NPM](https://img.shields.io/npm/v/aprendareact.svg)](https://www.npmjs.com/package/aprendareact) 
+<a href="#badge">
+    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
 
 
 ## Como instalar
